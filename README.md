@@ -10,3 +10,9 @@ This is a basic script that runs multiple checks for an Elasticsearch cluster he
 4. Checks allocations status `_cat/allocation` API call 
 5. Looks and warns you for unassigned shards; 
 6. Creates a directory from where it was run and saves every output to files.
+
+# Notes
+> - At the moment the script only supports elasticsearch nodes using TLS.
+> - I will try to use elasticsearch's golang module for next versions.
+> - I am also planning on adding more options and tasks in the future.
+> - If you have any remarks please let me know, twitter @Cyb3rSn0rlax.
